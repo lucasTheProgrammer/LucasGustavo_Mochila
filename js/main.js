@@ -13,5 +13,5 @@ function criaElemento(nome, quantidade) {
   novoItem.classList.add("item")
   const numeroItem = document.createElement('strong')
   numeroItem.innerHTML = quantidade 
-  console.log(numeroItem)
+  numeroItem.innerHTML = numeroItem + nome
 }
