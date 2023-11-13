@@ -14,4 +14,5 @@ function criaElemento(nome, quantidade) {
   const numeroItem = document.createElement('strong')
   numeroItem.innerHTML = quantidade 
   numeroItem.innerHTML = numeroItem + nome
+  
 }
