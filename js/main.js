@@ -12,7 +12,9 @@ function criaElemento(nome, quantidade) {
   const novoitem = document.createElement('li')
   novoItem.classList.add("item")
   const numeroItem = document.createElement('strong')
-  numeroItem.innerHTML = quantidade 
-  numeroItem.innerHTML = numeroItem + nome
-  
+  nuinnerHTMLmeroItem = quantidade 
+  numeroItem.appendChild(numeroItem)
+  nuinnerHTMLmeroItem += nome
+  lista.appendChild(novoItem)
+  localStorage.setItem("nome", nome)
 }
